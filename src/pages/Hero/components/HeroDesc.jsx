@@ -5,7 +5,7 @@ import BuyNowBtn from "../../../assets/Zeno_10/HeroDesc/BuyNowbutton.png";
 
 const HeroDesc = () => {
   return (
-    <div className="flex flex-col gap-6 justify-start items-center h-screen  mt-0 z-50 ">
+    <div className="flex flex-col gap-6 justify-start items-center mt-0 z-50 ">
       
       <img src={Symbol} alt="Zeno 10 Symbol" className="w-36 " />
       <img src={Zeno10Logo} alt="Zeno 10 Logo" className="w-1/3" />
