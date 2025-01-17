@@ -46,11 +46,10 @@ const Hero = () => {
           className="absolute inset-0 bg-center bg-cover transition-transform duration-500 scale-[1.2] z-10"
           style={{ backgroundImage: `url(${bg3})` }}
         ></div>
+        
         <div className="absolute inset-0 bg-center bg-cover transition-transform duration-500 scale-[1.2] z-10 backdrop-blur-[2px]"></div>
-
-        <div className="z-50 absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-black to-transparent"></div>
       </div>
-
+      <div className="z-50 absolute -bottom-2 left-0 w-full h-[30rem] bg-gradient-to-t from-black to-transparent"></div>
       <div className="relative  bottom-80 lg:bottom-0 z-50">
         <HeroDesc />
       </div>

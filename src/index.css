@@ -5,6 +5,13 @@
     font-style: normal;
   }
 
+  @font-face {
+    font-family: 'ClashDisplay';
+    src: url('./assets/Zeno_10/Typeface_ClashDisplay/ClashDisplay_Complete/Fonts/OTF/ClashDisplay-Bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

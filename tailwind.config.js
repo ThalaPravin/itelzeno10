@@ -15,6 +15,7 @@ export default {
 				'markot': ['Mark_OT'],
 				'bricolage': ['BricolageGrotesque'],
 				'be_vietnam_pro': ['Be Vietnam Pro'],
+				'clashdisplay':['ClashDisplay'],
 			},
 			colors: {
 				'itel-red': '#ff0037',
