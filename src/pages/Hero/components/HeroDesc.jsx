@@ -1,7 +1,7 @@
 import React from "react";
-import Symbol from "../../../assets/Zeno 10/HeroDesc/symbol.webp";
-import Zeno10Logo from "../../../assets/Zeno 10/HeroDesc/zeno10.png";
-import BuyNowBtn from "../../../assets/Zeno 10/HeroDesc/BuyNowbutton.png";
+import Symbol from "../../../assets/Zeno_10/HeroDesc/symbol.webp";
+import Zeno10Logo from "../../../assets/Zeno_10/HeroDesc/zeno10.png";
+import BuyNowBtn from "../../../assets/Zeno_10/HeroDesc/BuyNowbutton.png";
 
 const HeroDesc = () => {
   return (

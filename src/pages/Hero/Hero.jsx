@@ -1,8 +1,8 @@
 import React from "react";
-import bg3 from "../../assets/Zeno 10/hero/bghero.jpg";
-import purplePhone from "../../assets/Zeno 10/hero/purple.png";
-import purpleScreen from "../../assets/Zeno 10/hero/purpleScreennew.png";
-import greenPhone from "../../assets/Zeno 10/hero/green.png";
+import bg3 from "../../assets/Zeno_10/hero/bghero.jpg";
+import purplePhone from "../../assets/Zeno_10/hero/purple.png";
+import purpleScreen from "../../assets/Zeno_10/hero/purpleScreennew.png";
+import greenPhone from "../../assets/Zeno_10/hero/green.png";
 import HeroDesc from "./components/HeroDesc";
 
 const Hero = () => {
