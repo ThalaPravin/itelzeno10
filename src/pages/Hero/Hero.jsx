@@ -15,7 +15,7 @@ const Hero = () => {
         <img
           src={purplePhone}
           alt="Purple Phone Left"
-          className={`absolute left-[15%] sm:left-[15%] md:left-[25%] w-32 sm:w-52 md:w-64 lg:w-80 transform -rotate-[30deg] z-20 ${
+          className={`absolute left-[15%] sm:left-[15%] md:left-[25%] w-32 sm:w-52 md:w-64 lg:w-80 transform -rotate-[30deg] z-20  ${
             window.innerWidth >= 1024
               ? "animate-fadeLeft -bottom-48"
               : "bottom-96"
