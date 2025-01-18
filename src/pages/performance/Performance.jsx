@@ -75,23 +75,23 @@ function Performance() {
 
 	return (
 		<div className="relative min-h-screen">
-			<div className="absolute h-1/2 md:h-screen w-full md:w-1/2 md:-left-60 bottom-0 md:-bottom-16 md:p-24 overflow-hidden">
+			<div className="absolute h-1/2 lg:h-screen w-full lg:w-1/2 lg:-left-60 bottom-0 lg:-bottom-16 lg:p-24 overflow-hidden">
 				<div
-					className="h-full flex-grow bg-cover bg-top md:bg-right z-30 scale-125 transition-all duration-700 ease-in-out"
+					className="h-full flex-grow bg-cover bg-top lg:bg-right z-30 scale-125 transition-all duration-700 ease-in-out"
 					style={{ backgroundImage: `url(${data[current].bgImage})` }}
 				></div>
 			</div>
-			<div className="px-6 md:px-24 py-12 h-full flex flex-col gap-14">
-				<div className="md:flex text-white justify-between items-end z-50">
-					<div className="text-center md:text-left">
+			<div className="px-6 lg:px-24 py-12 h-full flex flex-col gap-14">
+				<div className="lg:flex text-white justify-between items-end z-50">
+					<div className="text-center lg:text-left">
 						<h1 className="font-markot font-extrabold italic tracking-[0.35em] mb-2">
 							<span className="text-red-600">//</span>PERFORMANCE
 						</h1>
-						<h1 className="text-3xl  md:text-6xl font-extrabold font-clashdisplay">
+						<h1 className="text-3xl  lg:text-6xl font-extrabold font-clashdisplay">
 							SEAMLESS <br /> <span className="text-red-600">MULTITASKING</span>.
 						</h1>
 					</div>
-					<div className="w-full text-center md:w-[30rem] text-xl [word-spacing:10px] text-gray-300">
+					<div className="w-full text-center lg:w-[30rem] text-xl [word-spacing:10px] text-gray-300">
 						<p>
 							Experience powerfully fast, lag-free performance with minimal load
 							times. With <span className="text-itel-red">Smart optimization</span>,
@@ -100,8 +100,8 @@ function Performance() {
 					</div>
 				</div>
 				<div className="w-full flex flex-col justify-center">
-					<div className="w-full flex flex-col md:flex-row text-white justify-center items-center md:justify-between z-50">
-						<div className="relative w-[400px] h-[200px] md:h-[400px] md:w-[700px] overflow-hidden">
+					<div className="w-full flex flex-col lg:flex-row text-white justify-center items-center lg:justify-between z-50">
+						<div className="relative w-[350px] h-[200px] lg:h-[400px] lg:w-[700px] overflow-hidden">
 							{data.map((item, index) => (
 								<img
 									key={index}
@@ -115,7 +115,7 @@ function Performance() {
 						</div>
 						<div className="flex-grow">
 							<div
-								className="hidden h-full flex-grow bg-contain bg-no-repeat bg-right z-30 md:flex justify-end items-center transition-opacity duration-700 ease-in-out"
+								className="hidden h-full flex-grow bg-contain bg-no-repeat bg-right z-30 lg:flex justify-end items-center transition-opacity duration-700 ease-in-out"
 								style={{ backgroundImage: `url(${smallGlass})` }}
 							>
 								{data.map((item, index) => (
@@ -141,7 +141,7 @@ function Performance() {
 								))}
 							</div>
 							<div
-								className="md:hidden h-full flex-grow bg-contain bg-no-repeat bg-center z-30 flex justify-end items-center transition-opacity duration-700 ease-in-out backdrop-blur-lg"
+								className="lg:hidden h-full bg-cover bg-no-repeat bg-center z-30 flex justify-end items-center transition-opacity duration-700 ease-in-out backdrop-blur-lg"
 								style={{ backgroundImage: `url(${rectangle})` }}
 							>
 								{data.map((item, index) => (
