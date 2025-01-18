@@ -2,11 +2,13 @@ import React from "react";
 import zenoicon from "../../assets/Zeno_10/battery/zenoicon.png";
 import glassmorphism from "../../assets/Zeno_10/battery/Glassmorphism.png";
 import battery from "../../assets/Zeno_10/battery/battery.webp";
+import Stripe from "./components/Stripe.jsx";
 
 const Battery = () => {
   return (
+    <>
     <div className="relative w-screen h-screen bg-black">
-      {/* Background Images */}
+   
       <div className="absolute inset-0 z-0 flex justify-between items-end">
         <div>
           <img src={zenoicon} alt="Zeno Icon" className="h-36 sm:h-48 lg:h-[18rem]" />
@@ -20,7 +22,7 @@ const Battery = () => {
         </div>
       </div>
 
-      {/* Foreground Content */}
+    
       <div className="absolute inset-0 z-10 flex items-center justify-start">
         <div className="w-full sm:w-3/4 md:w-1/2 px-5 sm:px-10 md:ml-20 relative">
           <img
@@ -49,6 +51,10 @@ const Battery = () => {
         </div>
       </div>
     </div>
+
+    <Stripe />
+
+    </>
   );
 };
 
