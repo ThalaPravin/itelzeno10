@@ -1,6 +1,6 @@
 import React from "react";
 import zenoicon from "../../assets/Zeno_10/battery/zenoicon.png";
-import glassmorphism from "../../assets/Zeno_10/battery/glassmorphism.png";
+import glassmorphism from "../../assets/Zeno_10/battery/Glassmorphism.png";
 import battery from "../../assets/Zeno_10/battery/battery.webp";
 
 const Battery = () => {
