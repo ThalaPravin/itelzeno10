@@ -10,7 +10,7 @@ import Performance from "./pages/performance/Performance.jsx";
 function App() {
   return (
     <>
-      <div className="w-full  bg-black">
+      <div className="w-full  bg-black overflow-hidden">
         <Hero />
         <ZenoHeader />
         <ZenoIconVideo />
