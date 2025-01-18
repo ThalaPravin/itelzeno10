@@ -7,7 +7,7 @@ const ThirdKsp = () => {
     <div className="w-[25.593rem] relative">
         
          <img
-           className="absolute inset-0 bg-cover bg-center"
+           className="absolute inset-0 bg-cover bg-center backdrop-blur-lg"
            src= {bg}
          ></img>
            

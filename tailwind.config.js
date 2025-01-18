@@ -279,11 +279,20 @@ export default {
 					'50%': { transform: 'translate(50%, 100%)', opacity: '0' },
 					'100%': { transform: 'translateX(50%, 0)', opacity: '1' },
 				},
+				scaleProportionally: {
+					'0%': { width: '41.94rem', height: '19.76rem', zIndex: '0' },
+					'50%': { width: '100%', height: '100%', zIndex: '50' },
+					'70%': { width: '100%', height: '100%', zIndex: '50' },
+					'100%': { width: '41.94rem', height: '19.76rem', zIndex: '50' },
+				  },
+
+				
 			},
 			animation: {
 				fadeUp: 'fadeUp 2s ease-out',
 				fadeRight: 'fadeRight 4s ease-out',
-				fadeLeft: 'fadeLeft 4s ease-out'
+				fadeLeft: 'fadeLeft 4s ease-out',
+				scaleProportionally: 'scaleProportionally 2s ease-in-out infinite',
 			},
 		},
 	},

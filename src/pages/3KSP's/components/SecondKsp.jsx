@@ -5,7 +5,7 @@ import logo from "../../../assets/Zeno_10/3_KSPs/secondksp.png";
 const SecondKsp = () => {
   return (
     <div className="w-[25.593rem] relative">
-      <img className="absolute inset-0 bg-cover bg-center" src={bg}></img>
+      <img className="absolute inset-0 bg-cover bg-center backdrop-blur-lg" src={bg}></img>
 
       <div className="relative flex flex-col items-center justify-center w-full h-[17.625rem]">
         <img src={logo} alt="Logo" className="mb-4 w-9" />
