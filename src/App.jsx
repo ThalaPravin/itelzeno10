@@ -4,6 +4,7 @@ import ZenoHeader from "./pages/zenoheader/ZenoHeader.jsx";
 import ZenoIconVideo from "./pages/colormobile/ZenoIconVideo.jsx";
 import KSP from "./pages/3KSP's/KSP.jsx";
 import Display from './pages/display/display';
+import Battery from "./pages/battery/Battery.jsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <ZenoIconVideo />
         <KSP />
         <Display />
+        <Battery/>
 
         <div className="w-full h-screen bg-black"></div>
       </div>
