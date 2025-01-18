@@ -23,7 +23,7 @@ const Display = () => {
       }}
     >
      
-      <div className="text-white flex flex-col justify-center items-start p-5 lg:w-1/3 relative z-10">
+      <div className="text-white flex flex-col justify-center items-start  lg:w-1/3 relative z-10 lg:pl-11">
         <h1 className="font-markot font-extrabold italic tracking-[0.35em] mb-5">
           <span className="text-red-600">//</span> DISPLAY
         </h1>
