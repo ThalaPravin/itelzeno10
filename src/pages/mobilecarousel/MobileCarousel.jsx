@@ -12,15 +12,15 @@ const MobileCarousel = () => {
   const [selectedColor, setSelectedColor] = useState(data[0]);
 
   return (
-    <div className="w-full bg-black overflow-hidden flex justify-center items-center flex-col h-screen font-clashdisplay tracking-wider mt-8">
-      <div className="flex flex-col w-full z-10 justify-center items-center">
+    <div className=" hidden md:block lg:block w-full bg-black overflow-hidden flex justify-center items-center flex-col h-screen font-clashdisplay tracking-wider mt-36">
+      <div className="flex flex-col w-full  justify-center items-center">
         <img
-          className="absolute inset-0 w-full  bg-cover bg-center backdrop-blur-xl z-50"
+          className="absolute inset-x-0 w-4/5  bg-cover bg-center backdrop-blur-xl  z-0 items-center lg:m-auto"
           src={glassmorphism}
           alt="Glassmorphism"
         />
 
-        <div className="bg-black rounded-2xl p-6 shadow-lg ">
+        <div className=" rounded-2xl p-6 shadow-lg z-10 ">
           <img
             src={selectedColor.image}
             alt={selectedColor.color}
