@@ -1,7 +1,7 @@
 import { useState } from "react";
 import Hero from "./pages/Hero/Hero.jsx";
 import ZenoHeader from "./pages/zenoheader/ZenoHeader.jsx";
-import ZenoIconVideo from "./pages/colormobile/ZenoIconVideo.jsx";
+import ZenoIconVideo from "./pages/ZenoIconVideo/ZenoIconVideo.jsx";
 import KSP from "./pages/3KSP's/KSP.jsx";
 import Display from './pages/display/display';
 import Battery from "./pages/battery/Battery.jsx";
