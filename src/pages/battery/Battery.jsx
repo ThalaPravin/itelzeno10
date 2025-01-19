@@ -7,7 +7,10 @@ import Stripe from "./components/Stripe.jsx";
 const Battery = () => {
   return (
     <>
+
     <div className="relative w-screen h-screen bg-black">
+
+       <div className="absolute inset-0 bg-gradient-to-bl  from-black via-transparent to-black opacity-78 z-10 "></div>
    
       <div className="absolute inset-0 z-0 flex justify-between items-end">
         <div>
