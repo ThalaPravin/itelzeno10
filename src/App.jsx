@@ -8,6 +8,7 @@ import Battery from "./pages/battery/Battery.jsx";
 import Performance from "./pages/performance/Performance.jsx";
 import Storage from "./pages/storage/Storage.jsx";
 import DynamicBar from "./pages/dynamicbar/DynamicBar.jsx";
+import Camera from "./pages/camera/Camera.jsx";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Performance />
         <Storage/>
         <DynamicBar/>
+        <Camera />
 
         <div className="w-full h-screen bg-black"></div>
       </div>
