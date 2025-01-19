@@ -31,9 +31,11 @@ const Battery = () => {
             alt="Glassmorphism"
           />
           <div className="relative flex flex-col justify-center px-5 sm:px-12 lg:px-24 mt-6 sm:mt-9 w-full h-[15rem] sm:h-[17.625rem] text-white">
-            <h1 className="font-markot font-extrabold italic tracking-[0.2em] sm:tracking-[0.35em] mb-3 sm:mb-5 text-lg sm:text-xl lg:text-2xl">
-              <span className="text-red-600">//</span> BATTERY
-            </h1>
+          <h1 className="font-markot font-extrabold italic tracking-[0.1em] sm:tracking-[0.35em] mb-3 sm:mb-5 text-lg sm:text-xl lg:text-xl font-markot font-extrabold italic tracking-[0.35em] mb-2">
+                   
+							<span className="text-red-600">//</span>PERFORMANCE
+					
+                    </h1>
             <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-extrabold font-clashdisplay">
               NON STOP POWER, <br />
               <span className="text-red-600">
