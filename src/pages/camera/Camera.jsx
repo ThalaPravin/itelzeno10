@@ -3,9 +3,9 @@ import cameraIcon from "../../assets/Zeno_10/camera/camera_withbg.png";
 
 const Camera = () => {
   return (
-    <div className="w-full flex flex-col items-center justify-center bg-red z-10">
+    <div className="lg:mt-20 mt-8  w-full flex flex-col items-center justify-center bg-red z-10">
       <div>
-        <div className="text-white lg:px-24 lg:flex justify-center items-center">
+        <div className="text-white lg:px-24 lg:flex justify-center items-center px-4">
           <div className="w-full">
             <h1 className="font-markot font-extrabold italic tracking-[0.1em] sm:tracking-[0.35em] mb-3 sm:mb-5 text-base  lg:text-xl">
               <h1 className="font-markot font-extrabold italic tracking-[0.35em] mb-2">
