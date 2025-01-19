@@ -19,8 +19,10 @@ const DynamicBar = () => {
 
             <div className="absolute inset-0 z-10 flex items-center justify-center lg:px-12">
                 <div className="text-white lg:px-5">
-                    <h1 className="font-markot font-extrabold italic tracking-[0.2em] sm:tracking-[0.35em] mb-3 sm:mb-5 text-lg sm:text-xl lg:text-2xl">
-                        <span className="text-red-600">//</span> DYNAMIC BAR
+                    <h1 className="font-markot font-extrabold italic tracking-[0.1em] sm:tracking-[0.35em] mb-3 sm:mb-5 text-lg sm:text-xl lg:text-xl">
+                    <h1 className="font-markot font-extrabold italic tracking-[0.35em] mb-2">
+							<span className="text-red-600">//</span>PERFORMANCE
+						</h1>
                     </h1>
                     <h1 className="text-2xl  md:text-4xl lg:text-6xl font-extrabold font-clashdisplay">
                         INTUITIVE .<br /> SMART . <br /> 
