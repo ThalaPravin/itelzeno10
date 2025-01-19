@@ -6,6 +6,7 @@ import KSP from "./pages/3KSP's/KSP.jsx";
 import Display from './pages/display/display';
 import Battery from "./pages/battery/Battery.jsx";
 import Performance from "./pages/performance/Performance.jsx";
+import Storage from "./pages/storage/Storage.jsx";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Display />
         <Battery/>
         <Performance />
+        <Storage/>
 
         <div className="w-full h-screen bg-black"></div>
       </div>
