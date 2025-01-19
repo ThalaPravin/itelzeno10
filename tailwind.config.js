@@ -220,11 +220,7 @@ export default {
 					letterSpacing: '-0.24px',
 					fontWeight: '500'
 				}],
-				// '': ['', {
-				// 	lineHeight: '',
-				// 	letterSpacing: '',
-				// 	fontWeight: ''
-				// }],
+				
 			},
 			backgroundImage: {
 				'ultraStorageVault': "url('/smartphone/S24/ultra-storage-vault.webp')",
