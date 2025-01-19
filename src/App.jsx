@@ -9,6 +9,7 @@ import Performance from "./pages/performance/Performance.jsx";
 import Storage from "./pages/storage/Storage.jsx";
 import DynamicBar from "./pages/dynamicbar/DynamicBar.jsx";
 import Camera from "./pages/camera/Camera.jsx";
+import MobileCarousel from "./pages/mobilecarousel/MobileCarousel.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         <Storage/>
         <DynamicBar/>
         <Camera />
+        <MobileCarousel />
 
         <div className="w-full h-screen bg-black"></div>
       </div>
