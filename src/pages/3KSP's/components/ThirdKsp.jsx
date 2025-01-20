@@ -4,7 +4,7 @@ import logo from '../../../assets/Zeno_10/3_KSPs/thirdksp.png';
 
 const ThirdKsp = () => {
   return (
-    <div className="w-[25.593rem] relative">
+    <div className="lg:w-[25.593rem] w-[22.5rem] relative">
         
          <img
            className="absolute inset-0 bg-cover bg-center backdrop-blur-lg"

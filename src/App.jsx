@@ -10,13 +10,16 @@ import Storage from "./pages/storage/Storage.jsx";
 import DynamicBar from "./pages/dynamicbar/DynamicBar.jsx";
 import Camera from "./pages/camera/Camera.jsx";
 import MobileCarousel from "./pages/mobilecarousel/MobileCarousel.jsx";
+import ZenoTextual from "./pages/zenotextual/ZenoTextual.jsx";
 
 function App() {
   return (
     <>
       <div className="w-full  bg-black overflow-hidden">
+     
         <Hero />
         <ZenoHeader />
+        <ZenoTextual />
         <ZenoIconVideo />
         <KSP />
         <Display />
@@ -26,6 +29,7 @@ function App() {
         <DynamicBar/>
         <Camera />
         <MobileCarousel />
+     
 
         <div className="w-full h-screen bg-black"></div>
       </div>

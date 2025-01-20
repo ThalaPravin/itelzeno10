@@ -8,7 +8,7 @@ import FaceLockGlass from "./components/FaceLockGlass";
 import EightMpGlass from "./components/EightMpGlass";
 import FingerPrintGlass from "./components/FingerPrintGlass";
 import cameraIcon from "../../assets/Zeno_10/camera/camera_withbg.png";
-
+import backCoverIcon from "../../assets/Zeno_10/camera/backcover.png";
 
 function Camera() {
   return (
@@ -77,6 +77,11 @@ function Camera() {
           <FaceLockGlass />
           <EightMpGlass />
           <FingerPrintGlass />
+        </div>
+        <div className="hidden md:block lg:block bg-red-600 py-3 text-white text-center flex justify-center items-center ">
+          <span className="text-lg font-bold tracking-[0.9em] font-clashdisplay">
+            GET THIS ATTRACTIVE BACK COVER FOR FREE
+          </span>
         </div>
       </div>
     </>
