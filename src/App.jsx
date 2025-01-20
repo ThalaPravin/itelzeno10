@@ -31,7 +31,7 @@ function App() {
         <MobileCarousel />
      
 
-        <div className="w-full h-screen bg-black"></div>
+      
       </div>
     </>
   );
